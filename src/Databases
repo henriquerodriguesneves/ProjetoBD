@@ -1,0 +1,10 @@
+create database projetoBD;
+
+use projetoBD;
+
+create table discos(
+			artista varchar(50) not null,
+			album varchar(50) not null,
+			ano_lancamento date not null,
+			estado_conservacao varchar(50) not null);
+			
